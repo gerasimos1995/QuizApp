@@ -1,0 +1,71 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="activity_main" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/backgroundOrange</item>
+    </style>
+
+    <style name="editText" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/backgroundViewsWhite</item>
+        <item name="android:layout_margin">@dimen/marginViews</item>
+        <item name="android:hint">@string/editText</item>
+        <item name="android:textColorHint">@color/colorAccent</item>
+    </style>
+
+    <style name="linear_layout" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/marginViews</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="radioGroup" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/marginViews</item>
+    </style>
+
+    <style name="radioButton" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/backgroundViewsWhite</item>
+        <item name="android:padding">@dimen/smallMarginForRadioButtonsAndCheckBoxes</item>
+    </style>
+
+    <style name="checkBox" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/backgroundViewsWhite</item>
+        <item name="android:padding">@dimen/smallMarginForRadioButtonsAndCheckBoxes</item>
+    </style>
+
+    <style name="textView" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/smallMarginForRadioButtonsAndCheckBoxes</item>
+        <item name="android:textSize">@dimen/normalFontSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="sumbitButton" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/opinion_radioGroup</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
+</resources>
